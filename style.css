@@ -112,6 +112,8 @@ nav ul li a:hover::after{
    word-wrap: normal;
    word-break: keep-all;
    text-align: justify;
+   display: flex;
+   flex-direction: column;
 }
 
 .row{
