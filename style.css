@@ -519,6 +519,16 @@ nav .fas{
    }
 }
 
+/* -------------------------- smallest screen ------------------------------ */
+@media (max-width: 280px){
+   body{
+      width: 100%;
+   }
+   #about{
+      margin: auto;
+   }
+}
+
 /* -------------------------- large screen ------------------------------ */
 
 @media (min-width: 1000px) {
