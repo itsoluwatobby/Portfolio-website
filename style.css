@@ -112,6 +112,8 @@ nav ul li a:hover::after{
    word-wrap: normal;
    word-break: keep-all;
    text-align: justify;
+   display: flex;
+   flex-direction: column;
 }
 
 .row{
@@ -516,6 +518,16 @@ nav .fas{
 @media (max-width: 400px){
    nav .title{
       display: none;
+   }
+}
+
+/* -------------------------- smallest screen ------------------------------ */
+@media (max-width: 280px){
+   body{
+      width: 100%;
+   }
+   #about{
+      margin: auto;
    }
 }
 
